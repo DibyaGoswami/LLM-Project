@@ -86,12 +86,12 @@ For reference, this is the command I used to initialize my cuda kernel:
 python -m ipykernel install --user --name=cuda --display-name "MerlinLLM"
 ```
 
-Then to change the kernel you are working on, in the bigram file
+Then to change the kernel you are working on, in any of the `.ipynb` files
 When you run the command on [README line 78](README.md#L78), you will be directed to this page 
 
 ![alt text](image-3.png)
 
-Then double click on the bigram.ipynb file and it will take you here
+Then click on the `.ipynb` file you're going to work on and it will take you here
 Then select the `Kernel` tab and select `Change Kernel`
 
 ![alt text](image-2.png)
@@ -101,3 +101,5 @@ You will get a screen like this:
 ![alt text](image-4.png)
 
 Just go ahead and choose the kernel that corresponds to the display name you created (Mine is MerlinLLM)
+
+If you are looking for information on all the different torch functions (at least the relevant ones), then you can refer to the playground.ipynb file that contains code that shows how each function works, what the output looks like, and relevant comments on how to use the functions6
