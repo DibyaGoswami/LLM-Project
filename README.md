@@ -10,7 +10,7 @@ https://visualstudio.microsoft.com/visual-cpp-build-tools/
 ```
 
 During install, select `Desktop Development with C++`, and then proceed to install
-![alt text](image.png)
+![alt text](images/image.png)
 
 After install make sure to restart windows.
 
@@ -57,7 +57,7 @@ https://pytorch.org/
 
 Scroll down until you see this:
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 And choose your preferences and use the link given to you at the bottom
 For reference, the image contains my preferences and the command I used
@@ -89,16 +89,16 @@ python -m ipykernel install --user --name=cuda --display-name "MerlinLLM"
 Then to change the kernel you are working on, in any of the `.ipynb` files
 When you run the command on [README line 78](README.md#L78), you will be directed to this page 
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 Then click on the `.ipynb` file you're going to work on and it will take you here
 Then select the `Kernel` tab and select `Change Kernel`
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 You will get a screen like this:
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 Just go ahead and choose the kernel that corresponds to the display name you created (Mine is MerlinLLM)
 
