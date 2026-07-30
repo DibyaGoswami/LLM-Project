@@ -78,8 +78,8 @@ using this command:
 jupyter notebook
 ```
 
-You need to make sure you're running the jupyter code in cuda so we create a kernel
-and on the jupyter notebook you change the kernel to whatever the display name you set
+You need to make sure you're running the jupyter code in cuda, so we create a kernel
+and on the jupyter notebook you change the kernel to whatever the display name you set.
 For reference, this is the command I used to initialize my cuda kernel:
 
 ```
@@ -102,4 +102,4 @@ You will get a screen like this:
 
 Just go ahead and choose the kernel that corresponds to the display name you created (Mine is MerlinLLM)
 
-If you are looking for information on all the different torch functions (at least the relevant ones), then you can refer to the playground.ipynb file that contains code that shows how each function works, what the output looks like, and relevant comments on how to use the functions6
+If you are looking for information on all the different torch functions (at least the relevant ones), then you can refer to the playground.ipynb file that contains code that shows how each function works, what the output looks like, and relevant comments on how to use the functions.
