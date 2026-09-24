@@ -38,11 +38,18 @@ You will need to install the following dependencies
 4. ipykernel
 5. jupyter
 6. torch
+7. datasets
 
 You can download all of the dependencies using this terminal command (on Windows):
 
 ```
 pip3 install matplotlib numpy pylzma ipykernel jupyter
+```
+
+And then to install datasets:
+
+```
+pip install datasets
 ```
 
 if you have errors with installing the dependencies, and the error tells you to update pip3 
